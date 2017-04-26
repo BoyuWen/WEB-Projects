@@ -1,0 +1,122 @@
+#header{
+	height: 270px;
+	width: 100%;
+	background: url(./images/banner.jpg) no-repeat center;
+}
+#header>ul{
+	margin: 0;
+	padding: 0;
+}
+#header>ul>li>a{
+	display: block;
+	float: left;
+	margin-top: 175px;
+	margin-left: 40px;
+	height: 84px;
+	width: 104px;
+}
+#center{
+	width: 77%;
+	height: 800px;
+	margin:  0 auto;
+}
+#up{
+	color: red;
+	height:40px;
+	width:100%;
+	background: #F5F5F5;
+	margin:15px auto;
+}
+#in-up>a{
+	color: red;
+}
+#sidel{
+	width: 234px;
+	height: 90%;
+	float: left;
+}
+#sidel>ul{
+	margin: 0;
+	padding: 0;
+}
+#sidel>ul>li>a{
+	display: block;
+	margin-top: 5px;
+	height: 67px;
+	width: 237px;
+}
+#sidel1{
+	height: 500px;
+	width: 100%;
+}
+#sidel1>ul{
+	margin: 0;
+	padding: 0;	
+}
+#sidel1>ul>li>a{
+	display: block;
+	padding: 15px 80px;
+	color: black;
+	background: #F5F5F5;
+	border-bottom: 1px solid #DCDCDC;
+}
+#sidel1>ul>li>a:hover{
+	background: red;
+	color: white;
+	border-bottom: 1px solid red;
+}
+#sider{
+	height: 90%;
+	width: 75%;	float: right;
+}
+#sider>ul{
+	margin: 0;
+	padding-top: 0;
+	padding-left: 10px;
+}
+#sider>ul>li{
+	display: block;
+	border-bottom:1px solid  #DCDCDC;
+}
+#sider>ul>li>a{
+	color: black;
+	font-size: 20px;
+	line-height: 36px;
+}
+#sider>ul>li>a:hover{
+	text-decoration: underline;
+}
+#down{
+	height: 50px;
+	width: 50%;
+	float: left;
+	padding-left: 35%;
+}
+#down>ul>li>a{
+	margin-right: 5px;
+	color: black;
+	display: block;
+	padding: 2px 10px;
+	border: 1px solid #DCDCDC;
+	float: left;
+}
+#down>ul>li>a:hover{
+	color: white;
+	background: red;
+}
+#dian:hover{
+	color: black;
+}
+#footer{
+	height: 120px;
+	width: 100%;
+	background: #F5F5F5;
+	border-top: 2px solid red;
+	float: left;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}

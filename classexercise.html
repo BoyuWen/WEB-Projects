@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>classpractise</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+<input id="ssss" type="button" value="确认" disabled="disabled"></input>
+</body>
+<script type="text/javascript">
+	// function Movie(name,breed){
+	// 	this.name = name;
+	// 	this.breed = breed;
+	// }
+	// var movie1 = new Movie("123","456");
+	// for(var i in movie1){
+	// 	alert(movie1[i]);ZZZ
+	// }
+	// var result = document.getElementsByTagName("ul");
+	// //alert(result);
+	// document.write(result);
+	var time = 10;
+	function scroll(){
+		var btd = document.getElementById("ssss");
+		if (btd) {
+			if (time > 0) {
+				btd.value = "请"+time+"秒后输入";
+				time--;
+			} else {
+				btd.value = "确定";
+				btd.disabled = "";
+				clearInterval(timeid);
+			}
+		}
+	}
+	var timeid = setInterval("scroll()",1000);
+</script>
+</html>

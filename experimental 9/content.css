@@ -1,0 +1,158 @@
+*{
+	color: #844004;
+	padding: 0;
+	margin: 0 auto;
+}
+body{
+	font-size: 12px;
+	color: #522a06;
+	background: url(images/bodybg.gif) repeat-x;
+}
+span{
+	float: right;
+}
+li{
+	line-height: 30px;
+	list-style: none;
+}
+img{
+	border: 0;
+}
+p{
+	line-height: 23px;
+}
+a{
+	color: #522a06;
+	font-size: 12px;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+#header{
+	height: 205px;
+}
+#header1{
+	background: url(images/bg.gif) center;
+	height: 165px;
+}
+#logo{
+	width: 1000px;
+}
+#header2{
+	background: url(images/nav.jpg);
+	height: 40px;
+}
+#nav{
+	width: 1000px;
+}
+#content{
+	height: 40px;
+	width: 780px;
+	float: left;
+}
+#content>ul>li>a{
+	margin-right: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	display: block;
+	float: left;
+	line-height: 40px;	
+}
+#content>ul>li>a:hover{
+	color: #f9f603;
+	text-decoration: none;
+}
+#search{
+	width: 200px;
+	height: 40px;
+	float: left;
+}
+#search>input{
+	margin-top:8px; 
+}
+#center{
+	width: 1000px;
+	margin: 5px auto;
+	overflow: hidden;
+}
+#center1{
+	width: 700px;
+	float: left;
+}
+#navbar{
+	height: 40px;
+	padding-left: 43px;
+	font-size: 14px;
+}
+#navbar>p>a{
+	font-size: 14px;
+}
+#middle{
+	padding: 10px;
+	font-size: 14px;
+	border-bottom: 1px solid #c9baa5;
+}
+#middle>p{
+	line-height: 28px;
+	text-indent: 2em;
+}
+#bottom{
+	font-size: 13px;
+	height: 30px;
+	margin-top: 10px; 
+}
+#bottom>a{
+	color: #844004;
+	font-size: 13px;
+}
+#center2{
+	margin-top: 30px;
+	width: 280px;
+	float: right;
+}
+#up{
+	background: url(images/bg.png);
+	margin: 20px auto;
+	margin-top: 55px;
+	border: 1px solid #c9baa5;
+	height: 200px;
+}
+#up>ul>li{
+	display: block;
+	float: left;
+	margin-left: 13px;
+}
+#down{
+	width: 280px;
+	margin-top: 20px;
+	float: right;
+}
+#mingren{
+	background: url(images/show_bg.png) no-repeat;
+	height:330px;
+	padding:20px;
+	margin-top: 15px;
+}
+#footer{
+	background: url(images/foot.gif) no-repeat center;
+	height: 130px;
+	clear: both;
+}
+#connect{
+	width: 570px;
+	height:30px;
+	margin: 10px auto;
+}
+#connect>ul>li{
+	display: block;
+	float: left;
+	margin:0 15px;
+	margin-top: 10px;
+	line-height: 20px;
+}
+#connect>ul>li>a{
+	font-weight: bolder;
+	font-size: 15px;
+}

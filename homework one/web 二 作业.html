@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>隔行换色表格</title>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		tr{
+			height: 20px;
+			width: 40px;
+			border: 1px solid black;
+		}
+		td{
+			height: 20px;
+			width: 40px;
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+<table border="1" width="400px" height="200px" align="center">
+	<script type="text/javascript">
+		for (var i = 0; i < 10; i++) {
+			if (i%2 == 0) {
+				bg = "#cccccc";
+				document.write("<h1>");
+				for (var i = 0; i < 8; i++) {
+					document.write("<td>hello</td>");
+				}
+				document.write("</h1>");
+			}else{
+				bg = "#ffffff"
+				document.write("<tr style='bgcolor:"+bg+"'>");
+				for (var i = 0; i < 8; i++) {
+					document.write("<td>hello</td>");
+				}
+				document.write("</tr>");
+			}
+		}
+		}
+	</script>
+</table>
+</body>
+</html>

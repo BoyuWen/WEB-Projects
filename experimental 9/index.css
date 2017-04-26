@@ -1,0 +1,177 @@
+*{
+	color: #844004;
+	padding: 0;
+	margin: 0 auto;
+}
+body{
+	font-size: 12px;
+	color: #522a06;
+	background: url(images/bodybg.gif) repeat-x;
+}
+span{
+	float: right;
+}
+li{
+	line-height: 30px;
+}
+img{
+	border: 0;
+}
+p{
+	line-height: 23px;
+}
+a{
+	color: #522a06;
+	font-size: 12px;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+#header{
+	height: 205px;
+}
+#header1{
+	background: url(images/bg.gif) center;
+	height: 165px;
+}
+#logo{
+	width: 1000px;
+}
+#header2{
+	background: url(images/nav.jpg);
+	height: 40px;
+}
+#nav{
+	width: 1000px;
+}
+#content{
+	height: 40px;
+	width: 780px;
+	float: left;
+}
+#content>ul>li{
+	list-style: none;
+}
+#content>ul>li>a{
+	margin-right: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	display: block;
+	float: left;
+	line-height: 40px;	
+}
+#content>ul>li>a:hover{
+	color: #f9f603;
+	text-decoration: none;
+}
+#search{
+	width: 200px;
+	height: 40px;
+	float: left;
+}
+#search>input{
+	margin-top:8px; 
+}
+#center{
+	width: 1000px;
+	margin: 5px auto;
+	clear: right left;
+}
+#center1{
+	overflow: hidden;
+	width:1000px;
+}
+#l1{
+	width: 324px;
+	height: 243px;
+	background: url(images/news_bg.png);
+	float: left;
+}
+#c1{
+	width: 330px;
+	height: 243px;
+	margin-left: 38px;
+	float: left;
+}
+#c1>ul>li{
+	line-height: 30px;
+}
+#r1{
+	width: 290px;
+	float: right;
+}
+#r11{
+	height: 210px;
+	width: 290px;
+	background: url(images/board_bg.png);
+}
+#r11>ul{
+	margin-left: 17px;
+}
+#r11>ul>li{
+	line-height: 30px;
+}
+#center2{
+	width: 700px;
+	float: left;
+}
+#zhengming{
+	width: 315px;
+	margin-left: 15px;
+	float: left;
+}
+#xinwen{
+	width: 340px;
+	margin-left: 25px;
+	float: left;
+}
+#fengcai{
+	width: 700px;
+	clear: left right;
+	float: left;
+}
+#zuopin{
+	background: url(images/fengcai_bg2.png) no-repeat;
+	height: 140px;
+	margin-left: 15px;
+	padding: 20px;
+}
+#zuopin>ul>li{
+	display: block;
+	float: left;
+	margin-right: 8px;
+}
+#center3{
+	width: 280px;
+	margin-top: 20px;
+	float: right;
+}
+#mingren{
+	background: url(images/show_bg.png) no-repeat;
+	height:330px;
+	padding:20px;
+	margin-top: 15px;
+}
+#footer{
+	background: url(images/foot.gif) no-repeat center;
+	height: 130px;
+	clear: both;
+}
+#connect{
+	width: 570px;
+	height:40px;
+	margin: 10px auto;
+}
+#connect>ul>li{
+	display: block;
+	float: left;
+	margin:0 15px;
+	margin-top: 25px;
+	line-height: 20px;
+}
+#connect>ul>li>a{
+	font-weight: bolder;
+	font-size: 15px;
+}
